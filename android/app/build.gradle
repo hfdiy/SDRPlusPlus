@@ -2,13 +2,13 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.1"
-    ndkVersion "23.1.7274222"
+    compileSdkVersion 28
+    buildToolsVersion "30.0.3"
+    ndkVersion "25.1.8937393"
     defaultConfig {
         applicationId "org.sdrpp.sdrpp"
         minSdkVersion 23
-        targetSdkVersion 23
+        targetSdkVersion 28
         versionCode 1
         versionName "1.2.1"
 
